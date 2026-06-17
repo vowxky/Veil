@@ -1,1 +1,2 @@
-- Fix ImGuiMC, Light Buffer Startup, NVIDIA Shader Issues, and Sodium 0.8.13 Issues ([#142](https://github.com/FoundryMC/Veil/pull/142))
+- Shader injection module ([#152](https://github.com/FoundryMC/Veil/pull/152))
+- Use close() instead of clear() to free ByteBufferBuilder ([#155](https://github.com/FoundryMC/Veil/pull/155))

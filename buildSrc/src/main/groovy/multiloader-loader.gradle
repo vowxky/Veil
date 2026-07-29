@@ -77,8 +77,9 @@ publishMods {
         optional "sodium"
         optional "imguimc"
 
+        incompatible "embeddium"
+
         if (isNeoforge) {
-            incompatible "embeddium"
             incompatible "rubidium"
         }
 
@@ -109,8 +110,9 @@ publishMods {
         optional "sodium"
         optional "imguimc"
 
+        incompatible "embeddium"
+
         if (isNeoforge) {
-            incompatible "embeddium"
             incompatible "rubidium"
         }
 

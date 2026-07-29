@@ -1,2 +1,3 @@
-- Shader injection module ([#152](https://github.com/FoundryMC/Veil/pull/152))
-- Use close() instead of clear() to free ByteBufferBuilder ([#155](https://github.com/FoundryMC/Veil/pull/155))
+- Add mutable getters for light data
+- Implement a particle editor for Quasar ([#163](https://github.com/FoundryMC/Veil/pull/163))
+- Improve trails module ([#164](https://github.com/FoundryMC/Veil/pull/164))

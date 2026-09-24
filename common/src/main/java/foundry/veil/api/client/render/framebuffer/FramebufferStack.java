@@ -71,7 +71,7 @@ public class FramebufferStack {
         }
 
         lastPop = name;
-        State state = STATE_STACK.removeFirst();
+        State state = STATE_STACK.removeLast();
         if (state.framebuffer == AdvancedFbo.getMainFramebuffer().getId()) {
             AdvancedFbo.unbind();
             return;
